@@ -1,0 +1,29 @@
+* {box-sizing: border-box;}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px "Source Sans", helvetica, arial, sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 2px;
+    color: #505050;
+}
+
+button, input[type=button], input[type=submit], label {
+    cursor: pointer;
+}
+
+button, select, input[type=text], input[type=button], input[type=submit], input[type=number] {
+    border: 2px;
+    border-radius: 0px;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    background-color: rgba(255,255,255,.2);
+    background-size: 100% 100%;
+    float: left;
+}
